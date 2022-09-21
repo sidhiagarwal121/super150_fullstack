@@ -1,0 +1,19 @@
+ul+li{
+    color: rgb(84, 241, 10);
+}
+.circle{
+    border-radius: 50%;
+    background-color:  blue;
+    border-width: 10px;
+    height: 180px;
+    width: 180px;
+    margin-left: 600px;
+    border-color: black;
+    border-style: solid;
+}
+.circle:hover{
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 90px 0px 90px;
+    transition: 1s;
+}

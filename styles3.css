@@ -1,0 +1,18 @@
+div{
+    border: 4px solid black;
+    padding: 5px;
+    display: inline-block;
+    position: static;
+    height: 200px;
+    width:250px;
+}
+.dabba{
+    position: relative;
+    right: 45px;
+    top: 23px;
+}
+.dabba1{
+    position: relative;
+    right: 75px;
+    top: 53px;
+}

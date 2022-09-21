@@ -1,0 +1,35 @@
+/* section
+{
+    border: 5px solid black;
+    align-items: center;
+    overflow: auto;
+    width: 155px;
+    margin-left: 600px;
+    margin-top: 150px;
+    overflow:auto;
+
+
+}
+ul{
+    margin-left: -16px;
+    margin-right: 16px;
+}
+li{
+    border: 2px solid blue;
+} */
+h1{
+    color: blueviolet;
+    margin-left: 545px;
+}
+img{
+    height: 65px;
+    width: 65px;
+    float:left;
+    border-radius: 12px;
+    margin-right: 12px;
+}
+div{
+    height: 45px;
+    width: 45px;
+    display: flex;
+}

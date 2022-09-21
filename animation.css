@@ -1,0 +1,48 @@
+section{
+    height: 54px;
+    width: 542px;
+    background-color: violet;
+    animation-name: slider;
+    animation-duration: 2s;
+    border: 2px solid black;
+    animation-iteration-count: 3;
+
+}
+div{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: blue;
+    animation: bounce 1s ease-in-out infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-name: bounce;
+    transform: translateY(0px);
+    animation-iteration-count: infinite;
+    position:absolute;
+    margin-left: 650px;
+}
+hr{
+    margin-top: 420px;
+    border: 2px solid black;
+}
+@keyframes slider{
+    25%{
+        width: 400px;
+        height: 100px;
+    }
+    50%{
+        width: 620px;
+        height: 150px;
+    }
+}
+@keyframes bounce {
+    from {
+      top: 25%;
+      transform: scaleX(79.5%) scaleY(65%);
+    }
+    to {
+      top: 55%;
+    }
+
+  }
